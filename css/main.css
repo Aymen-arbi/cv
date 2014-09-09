@@ -1,0 +1,113 @@
+body{
+	font:18px/1.9em 'librebaskerville-regular', serif; 
+	font-size: 15px;
+	margin: 0;
+	padding: 0; 
+}
+h1{
+	color:#4665E8; 
+}
+h2{
+	color: #2E5983;
+}
+h3{
+	color: #215C6E;
+}
+.head-section{
+color:white; 	
+position:relative; 	
+height: 100vh;
+width: 100vw; 
+background:url(http://wallpaperest.com/wallpapers/dark-lake-nature_079819.jpg);
+background-position:center top;
+-webkit-background-size: cover ;
+overflow: hidden;
+}
+
+.menu{
+
+	margin-top: 2px;
+	width: 70%;
+	margin-left:auto;
+	margin-right:auto; 
+	min-width: 812px;	
+}
+.menu li{
+	list-style-type:none; 
+	float: left;
+	padding: 5px;
+	margin: 5px;
+	font-size:1.25em; 
+}
+.menu li a{
+	text-decoration:none;
+	color:white;
+
+}
+.menu li a:hover{
+	color:red; 
+}
+clear-fix{
+clear: both;
+}
+#info{
+	padding:150px; 
+	margin-right: auto;
+	margin-left:auto; 
+}
+#info img{
+display:block;  
+	margin-right:auto;
+	margin-left:auto;  
+	border-radius:100%; 
+	width:150px;
+	height:150px;
+	margin-bottom:75px; 
+} 
+#info p{
+	font-size: 1.25em;
+	text-align:center;
+	width:100%;
+ 	color:white;
+	margin:3px;
+	text-align:center;
+	font-weight: bold;
+	  
+}
+#info h1{
+	text-align: center;
+	 
+
+}
+#info a{
+	text-decoration:none;
+	color:white;
+}
+#info a:hover{
+	color: red;
+}
+.main-section{
+	padding:10px; 
+	color: white;
+	background-color:#2B2B2B;
+	max-width: 100vw;
+	background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt8YveSGM_TvkXy076CVc3rYjFlDLXvjd82rme3YFkKMVbuTGGvA); 
+	background-attachment:fixed;
+	
+}
+.main-section .section{ 
+	width:80%; 
+	margin-left:auto;
+	margin-right:auto; 
+}
+.main-section a{
+	color: #215C6E;
+	text-decoration:none;
+}
+.main-section a:hover{
+	color: red;
+} 
+
+
+
+

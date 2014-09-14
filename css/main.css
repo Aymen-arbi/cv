@@ -5,114 +5,159 @@ body{
 	padding: 0; 
 }
 h1{
-	color:#4665E8; 
+	color:#19436a; 
 }
 h2{
-	color: #2E5983;
+	color: #05ceaa;
 }
 h3{
-	color: #215C6E;
+	color: #108588;
 }
 .head-section{
-color:white; 	
-position:relative; 	
-height: 100vh;
-width: 100vw; 
-background:url(http://wallpaperest.com/wallpapers/dark-lake-nature_079819.jpg);
-background-position:center top;
--webkit-background-size: cover ;
-overflow: hidden;
+	color:white; 		
+	height: 100vh;
+	width: 100vw; 
+	background:url(../img/background1.jpg) ;
+	background-position:center top;
+	-webkit-background-size: cover ;
+	overflow: scroll;
 }
-
 .menu{
-	margin-top: 2px;
+	min-width: 889px;
+	float: left;
+	position: fixed;
+	width: 100%;
+	height:60px; 
+	padding:0; 
+	background-color:#ccc; 
+}
+.menu ul{
+	list-style-type:none;
 	width: 70%;
-	margin-left:auto;
-	margin-right:auto; 
-	min-width: 812px;	
+	margin:0 auto;
+	padding: 0;
+	padding-top: 15px;
 }
 .menu li{
-	list-style-type:none; 
 	float: left;
-	padding: 5px;
-	margin: 5px;
-	font-size:1.25em; 
 }
 .menu li a{
+	font-family: Lato, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	height: 50px;
+	line-height: 20px;
 	text-decoration:none;
 	color:white;
-
+	padding: 17px 15px 15px;
 }
 .menu li a:hover{
-	color:red; 
+	color:#05ceaa; 
 }
-clear-fix{
+.clear-fix{
 clear: both;
 }
 #info{
-	padding:150px; 
+	width:60%;
+	padding:15px; 
 	margin-right: auto;
 	margin-left:auto; 
+	margin-top: 91px;
+	overflow:scroll;
 }
 #info img{
 	background-color:white;
-	border:1px solid #999;
+	border:1px solid #ccc;
 	margin:7px;
 	padding:5px;
-	-webkit-filter: brightness(1) drop-shadow(17px 17px 20px black) grayscale(0.5);
+	-webkit-filter: brightness(1) drop-shadow(17px 17px 20px black) grayscale(0.2);
 	display:block;  
 	margin-right:auto;
 	margin-left:auto;  
 	border-radius:100%; 
 	width:150px;
 	height:150px;
-	margin-bottom:75px; 
+	margin-bottom:35px; 
 } 
 #info p{
-	font-size: 1.25em;
+	font-size: 1em;
 	text-align:center;
 	width:100%;
- 	color:white;
 	margin:3px;
 	text-align:center;
+	font-family: 'Indie Flower', cursive;
 	font-weight: bold;
-	  
+	font-style: normal;	  
 }
-#info h1{
-	font-family:  Georgia, serif;
-	text-align: center;
-	 
-
-}
-#info a{
-	text-decoration:none;
-	color:white;
+#info h2, #info a{
+	font-size: 1em;
+	text-align:center;
+	width:100%;
+	margin:3px;
+	text-align:center;
+	font-style: normal;
+	color: #05ceaa;
+	text-decoration:none;	
 }
 #info a:hover{
-	color: red;
+	color:#fff;
 }
 .main-section{
-	padding-top:70px;
-	padding-bottom: 20px;
-	color: white;
-	background-color:#2B2B2B;
-	max-width: 100vw;
-	background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt8YveSGM_TvkXy076CVc3rYjFlDLXvjd82rme3YFkKMVbuTGGvA); 
-	background-attachment:fixed;
-	
+	color: black;
+	max-width: 100vw;	
 }
-.main-section .section{ 
-	width:80%; 
+.main-section .section{
+	padding-bottom: 30px; 
+}
+.main-section .container{ 
+	padding-top: 70px;
+	width:80%;
 	margin-left:auto;
 	margin-right:auto; 
 }
 .main-section a{
-	color: #215C6E;
+	color: #108588;
 	text-decoration:none;
 }
 .main-section a:hover{
-	color: red;
-} 
+	color:#19436a;
+}
+#anstallingar, #more-info{
+	background-color: #f2f2ef;
+}
+#kunskap1, #kunskap2, #kunskap3{
+	line-height: 120%;
+	background-color:#108588;
+	color:white;
+	overflow:scroll;
+	width:25%;
+	height:200px; 
+	float:left;  
+}
+#kunskaper .inne-container h1{
+	color:#ccc; 
+}
+#kunskap1{
+	background-color:#108588;  
+}
+#kunskap2{
+	background-color:#19436a; 
+}
+#kunskap3{
+	background-color:#05ceaa;  
+}
+#kunskaper .container{
+	min-width: 690px;
+}
+#kunskaper .inne-container{
+	padding:20px; 
+	margin-right:6px;
+	font-size:0.80em;
+}
+.clear-fix{
+clear: both;
+}
 
 
 

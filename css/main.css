@@ -61,7 +61,7 @@ h3{
 	margin-right: auto;
 }
 .clear-fix{
-clear: both;
+	clear: both;
 }
 #info{
 	width:60%;
@@ -131,17 +131,29 @@ clear: both;
 #anstallingar, #more-info{
 	background-color: #f2f2ef;
 }
+.flex-container{
+	display: -webkit-box;
+}
 #kunskap1, #kunskap2, #kunskap3{
+	-webkit-box-flex: 1;
 	line-height: 120%;
 	background-color:#108588;
 	color:white;
 	overflow:scroll;
-	width:25%;
+	width: 15%;
+	min-width:15vw;
 	height:200px; 
 	float:left;  
+	padding:20px; 
+	margin-right:6px;
+	font-size:0.80em;
+
 }
 #kunskaper .inne-container h1{
-	color:#ccc; 
+	color:#ccc;
+}
+#kunskaper h1{
+
 }
 #kunskap1{
 	background-color:#108588;  
@@ -152,16 +164,10 @@ clear: both;
 #kunskap3{
 	background-color:#05ceaa;  
 }
-#kunskaper .container{
-	min-width: 690px;
-}
-#kunskaper .inne-container{
-	padding:20px; 
-	margin-right:6px;
-	font-size:0.80em;
-}
+
+
 .clear-fix{
-clear: both;
+	clear: both;
 }
 
 

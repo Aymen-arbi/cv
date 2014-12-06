@@ -43,9 +43,6 @@ jQuery(document).ready(function ($) {
 
 			if (cur_pos >= top && cur_pos <= bottom) {
 				nav.find('li').removeClass('current');
-				// sections.removeClass('current');
-
-				// $(this).addClass('current');
 				nav.find('a[href="#' + $(this).attr('id') + '"]').parent().addClass('current');
 			}
 		});
@@ -84,66 +81,5 @@ jQuery(document).ready(function ($) {
 
 			}
 		}
-
 	});
-
-
-	/*----------------------------------------------------*/
-	/*	Make sure that #header-background-image height is
-	/* equal to the browser height.
-	------------------------------------------------------ */
-
-	// $('.home').css({
-	// 	'height': $(window).height()
-	// });
-	// $(window).on('resize', function () {
-
-	// 	$('.home').css({
-	// 		'height': $(window).height()
-	// 	});
-	// 	$('body').css({
-	// 		'width': $(window).width()
-	// 	});
-	// });
-
-	// /*----------------------------------------------------*/
-	//  Highlight the current section in the navigation bar
-	// ------------------------------------------------------*/
-	// var sections = $(".section");
-	// var navigation_links = $(".cont a");
-
-	// sections.waypoint({
-
-	// 	handler: function (event, direction) {
-
-	// 		var active_section;
-
-	// 		active_section = $(this);
-	// 		if (direction === "up") active_section = active_section.prev();
-	// 		var active_link = $('.cont a[href="#' + active_section.attr("id") + '"]');
-
-	// 		navigation_links.parent().removeClass("current");
-	// 		active_link.parent().addClass("current");
-
-	// 	},
-	// 	offset: '10%'
-
-	// });
-
-	// /*----------------------------------------------------*/
-	//  Smooth Scrolling
-	// ------------------------------------------------------*/
-	// $('a[href*=#]:not([href=#])').click(function () {
-	// 	if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-	// 		var target = $(this.hash);
-	// 		target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-	// 		if (target.length) {
-	// 			$('html,body').animate({
-	// 				scrollTop: target.offset().top
-	// 			}, 700);
-	// 			return false;
-	// 		}
-	// 	}
-	// });
-
 });

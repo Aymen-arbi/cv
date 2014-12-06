@@ -150,6 +150,15 @@ h3{
 }
 #kunskaper .inne-container h1{
 	color:#ccc;
+	min-width:15vw;
+	height:200px; 
+	float:left;  
+	padding:20px; 
+	margin-right:6px;
+	font-size:0.80em;
+}
+#kunskaper .inne-container h1{
+	color:#ccc;
 }
 #kunskap1{
 	background-color:#108588;  
@@ -293,54 +302,6 @@ h3{
 		width:90%; 
 		margin-top: 40%;
 	}
-
+.clear-fix{
+	clear: both;
 }
-
-/*http://www.styleshout.com/templates/preview/Ceevee10/#nav-wrap*/
-/*----------------------------------------------------*/
-/* Highlight the current section in the navigation bar
-------------------------------------------------------*/
-
-	/*var sections = $("section");
-	var navigation_links = $("#nav-wrap a");
-
-	sections.waypoint({
-
-      handler: function(event, direction) {
-
-		   var active_section;
-
-			active_section = $(this);
-			if (direction === "up") active_section = active_section.prev();
-
-			var active_link = $('#nav-wrap a[href="#' + active_section.attr("id") + '"]');
-
-         navigation_links.parent().removeClass("current");
-			active_link.parent().addClass("current");
-
-		},
-		offset: '35%'
-
-		});*/
-
-
-/*----------------------------------------------------*/
-/*	Make sure that #header-background-image height is
-/* equal to the browser height.
------------------------------------------------------- */
-
-   /*$('header').css({ 'height': $(window).height() });
-   $(window).on('resize', function() {
-
-        $('header').css({ 'height': $(window).height() });
-        $('body').css({ 'width': $(window).width() })
-        });*/
-
-/*-------------------------------------------------------------------------------------------------------*/
-/*humberger menu*/
-
-/*http://codepen.io/g13nn/pen/eHGEF*/
-/*http://codepen.io/mblode/pen/evjfn*/
-
-
-

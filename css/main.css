@@ -150,15 +150,6 @@ h3{
 }
 #kunskaper .inne-container h1{
 	color:#ccc;
-	min-width:15vw;
-	height:200px; 
-	float:left;  
-	padding:20px; 
-	margin-right:6px;
-	font-size:0.80em;
-}
-#kunskaper .inne-container h1{
-	color:#ccc;
 }
 #kunskap1{
 	background-color:#108588;  
@@ -246,6 +237,9 @@ h3{
 		color:white;
 		padding:0;
 	}
+	.menu li a:hover{
+		color: none;
+	}
 	.menu .cont{
 		display: none;
 	}
@@ -302,6 +296,5 @@ h3{
 		width:90%; 
 		margin-top: 40%;
 	}
-.clear-fix{
-	clear: both;
+
 }

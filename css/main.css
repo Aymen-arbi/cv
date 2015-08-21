@@ -13,7 +13,7 @@ h2{
 	color: #05ceaa;
 }
 h3{
-	color: #108588;
+	color: #8F9090;
 }
 a:hover{
 	transition-delay: 0s;
@@ -123,8 +123,9 @@ a:hover{
 	margin-bottom:10%; 
 } 
 #info .info-detail{
-	background: rgba(0,0,0,0.3);
+	background: rgba(0,0,0,0.4);
 	border-radius: 15px;
+	padding: 3px 2px;
 }
 #info p{
 	width:100%;
@@ -133,23 +134,23 @@ a:hover{
 	font-family: 'librebaskerville-italic', serif;
 	font-style: normal;
 }
-#info h2, #info a{ 
+#info h1, #info h2, #info a{ 
 	font-size: 1em;
 	text-align:center;
+	color: #05ceaa;
 	width:100%;
 	margin:3px;
 	text-align:center;
 	font-style: normal;
 	font-weight: normal;
-	color: #05ceaa;
 	text-decoration:none;	
 }
 #info a:hover{
 	color:#fff;
 }
 .social {
-	margin: 1.5% 0;
-	padding: 0;
+	margin: auto;
+	padding:3px 0;
 	font-size: 27px;
 	text-shadow: 0px 1px 2px rgba(255, 255, 255, .5);
 }
@@ -194,22 +195,24 @@ a:hover{
 	font: 18px/24px 'opensans-bold', sans-serif;
 }
 .main-section h2 {
-	font: 16px/30px 'librebaskerville-italic', serif;
+	font: 18px/24px 'librebaskerville-italic', serif;
 }
 .main-section h3 {
 	font: 16px/24px 'librebaskerville-italic', serif;
 }
 .main-section a{
-	color: #108588;
+	color:#05ceaa;
 	text-decoration:none;
 }
 .main-section a:hover{
-	color:#05ceaa;
+	color: #108588;
 }
 #anstallnigar, #kontakt{
 	background-color: #f2f2ef;
 }
-
+#utbildning a{
+	color: black;
+}
 #kunskaper{
 	background: url(../img/frankrike-blur.jpg);
 	width: 100vw;
@@ -221,8 +224,12 @@ a:hover{
 	overflow: hidden;
 	position: relative;
 }
-#kunskaper h1{
-	color: #108588;
+
+#kunskaper h2{
+	color: #8F9090;
+}
+#kunskaper h3{
+	color: #05ceaa;
 }
 #kunskaper .container{
 	position: relative;
@@ -239,6 +246,7 @@ a:hover{
 	display: flex;  
 	-webkit-flex-flow: row wrap;
 	flex-flow: row wrap;
+	margin-top: 15px;
 } 
 #kunskap1, #kunskap2, #kunskap3{
 	flex: 1;
@@ -251,7 +259,7 @@ a:hover{
 	border-radius: 3px;
 	padding: 10px;
 	margin-right:2%;
-	background:rgba(0,0,0,.5);
+	background:rgba(0,0,0,.7);
 	border-width:1px;	
     border-style:solid;
     border-color: #ffff;
@@ -326,7 +334,7 @@ footer .social {
 }
 footer .social li {
 	display: inline-block;
-	margin: 0;
+	margin: auto;
 	padding: 0 2%;
 	color: #F06000;
 }
@@ -334,7 +342,7 @@ footer .social li {
 	position: absolute;
 	top: -24px;
 	left: 50%;
-	margin-left: -30px;
+	margin-left: -38px;
 }
 #go-top a {
 	text-decoration: none;
@@ -357,6 +365,9 @@ footer .social li {
 #go-top a:hover {
 	background-color: white;
 	color: #525252;
+}
+footer .social{
+	margin: 1.5% 0;
 }
 footer .social a{
 	color: #525252;
@@ -462,7 +473,7 @@ footer .social a:hover{
 	}
 
 	#kunskaper {
-		height: 820px;
+		height: 1200px;
 	}
 	#kunskaper .section-main{
 		display: block;

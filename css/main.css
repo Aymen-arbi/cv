@@ -482,7 +482,7 @@ footer .social a:hover{
 		text-align: center;
 	}
 	.section-main h2 , h3, h3 a{
-		text-align: left;
+		text-align: left;  
 	}
 
 	#kunskaper {
@@ -530,5 +530,22 @@ footer .social a:hover{
 	input[type="submit"]{
 		width: 20%;
 		margin-right: 0;
+	}	
+}
+@media screen and ( max-height: 822px ){
+    }#kunskaper {
+		height: 1000px;
+	}
+		#kunskaper .section-main , #utbildning .section-main{
+		display: block;
+	}
+	#kunskap1, #kunskap2, #kunskap3{
+		line-height: 150%;
+		color:white;
+		overflow:hidden;
+		width: 50%;
+		height:auto;  
+		padding:10px; 
+		margin:10px auto;
 	}
 }

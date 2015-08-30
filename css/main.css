@@ -34,7 +34,7 @@ a:hover{
 	width: 100vw; 
 	background-image:url(../img/background1.jpg) ;
 	-webkit-background-size: cover ;
-	background-position: center center;
+	background-position: absolute;
 	overflow: scroll;
 	background-attachment: fixed;
 }
@@ -218,7 +218,7 @@ a:hover{
 	background: url(../img/background2.jpg);
 	width: 100vw;
 	height: 100vh;
-	background-position:center;
+	background-position:absolute;
 	background-size: cover;
 	-webkit-background-size: cover ;
 	background-attachment: fixed;

@@ -208,7 +208,7 @@ a:hover{
 .main-section a:hover{
 	color: #108588;
 }
-#anstallnigar, #kontakt{
+#anstallnigar, #Fritidsintressen{
 	background-color: #f2f2ef;
 }
 #utbildning a{
@@ -353,7 +353,7 @@ footer .social li {
 	position: absolute;
 	top: -24px;
 	left: 50%;
-	margin-left: -38px;
+	margin-left: -33px;
 }
 #go-top a {
 	text-decoration: none;

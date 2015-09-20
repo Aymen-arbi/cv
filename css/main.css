@@ -387,39 +387,42 @@ footer .social a:hover{
 	color: #fff;
 }
 
+.goog-te-banner-frame.skiptranslate {
+	display: none;
+} 
 #translate-a {
-  padding: 0;
-  margin: auto;
-  height: 3em;
-  width: 350px;
-  transition: margin .5s ease-in-out;
+	padding: 0;
+	margin: auto;
+	height: 3em;
+	width: 350px;
+	transition: margin .5s ease-in-out;
 }
 
 #translate-a .wrap-a {
-  padding: 0 2em;
-  margin: 0 auto;
-  text-align: left;
+	padding: 0 2em;
+	margin: 0 auto;
+	text-align: left;
 }
 #translate-a .skiptranslate {
-  font: .8em/4 Helvetica, Arial, sans-serif;
-  color: #fff;
-  height: 2.9em;
-  overflow: hidden;
+	font: .8em/4 Helvetica, Arial, sans-serif;
+	color: #fff;
+	height: 2.9em;
+	overflow: hidden;
 }
 #translate-a .skiptranslate > div {
-  float: right;
-  
+	float: right;
+	
 }
 #translate-a .skiptranslate img {
-  vertical-align: middle;
+	vertical-align: middle;
 }
 #translate-a .skiptranslate a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: 400;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 400;
 }
 #translate-a .skiptranslate a:hover, #translate-a .skiptranslate a #translate-a, #translate-a .skiptranslate a:focus, #translate-a .skiptranslate a:active {
-  text-decoration: underline;
+	text-decoration: underline;
 }
 
 @media  screen and (max-width: 767px) {

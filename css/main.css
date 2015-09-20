@@ -208,7 +208,7 @@ a:hover{
 .main-section a:hover{
 	color: #108588;
 }
-#anstallnigar, #Fritidsintressen{
+#Erfarenhet, #Fritidsintressen{
 	background-color: #f2f2ef;
 }
 #utbildning a{
@@ -386,6 +386,52 @@ footer .social a{
 footer .social a:hover{
 	color: #fff;
 }
+
+
+.goog-te-banner-frame.skiptranslate {display: none !important;} 
+body { top: 0px !important; }
+#translate-a {
+  padding: 0;
+  margin: auto;
+  height: 3em;
+  width: 340px;
+  transition: margin .5s ease-in-out;
+}
+
+#translate-a .wrap-a {
+  max-width: 71.25em;
+  padding: 0 2em;
+  margin: 0 auto;
+  text-align: left;
+}
+#translate-a .skiptranslate {
+  font: .7em/4 Helvetica, Arial, sans-serif;
+  color: #fff;
+  height: 2.9em;
+  overflow: hidden;
+}
+#translate-a .skiptranslate > div {
+  float: right;
+  margin-left: 5px;
+}
+#translate-a .skiptranslate img {
+  vertical-align: middle;
+}
+#translate-a .skiptranslate a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+}
+#translate-a .skiptranslate a:hover, #translate-a .skiptranslate a #translate-a, #translate-a .skiptranslate a:focus, #translate-a .skiptranslate a:active {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
 
 @media  screen and (max-width: 767px) {
 	.body{

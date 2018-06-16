@@ -37,6 +37,7 @@ a:hover{
 	background-position: absolute;
 	overflow: scroll;
 	background-attachment: fixed;
+	/*object-fit: none;*/
 }
 
 .menu{
@@ -113,13 +114,17 @@ a:hover{
 #info img{
 	background-color:white;
 	border:1px solid #ccc;
-	padding:5px;
+	padding:1px;
 	-webkit-filter: brightness(1) drop-shadow(17px 17px 20px black) grayscale(0.2);
 	display:block;  
 	margin:0 auto;
 	border-radius:100%; 
-	width:100px;
-	height:100px;
+	/*width:100px;
+	height:100px;*/
+	max-width:170px;
+  	max-height:170px;
+  	width: auto;
+  	height: auto;
 	margin-bottom:10%; 
 } 
 #info .info-detail{
@@ -177,13 +182,13 @@ a:hover{
 	display:block;
 }
 .section-header{
-	width: 25%;
+	width: 15%;
 	float: left;
 	display:block;
 	margin-left:0; 
 }
 .section-main{
-	width: 75%;
+	width: 85%;
 	float: right;
 	display:block;
 	text-align: justify;
@@ -224,7 +229,6 @@ a:hover{
 	background-attachment: fixed;
 	overflow: hidden;
 	position: relative;
-	filter: blur(20px);
 }
 
 #kunskaper h2{
@@ -521,7 +525,8 @@ footer .social a:hover{
 		text-align: center;
 	}
 	.section-main h2 , h3, h3 a{
-		text-align: left;  
+		text-align: left;
+		display: inline;		
 	}
 
 	#kunskaper {

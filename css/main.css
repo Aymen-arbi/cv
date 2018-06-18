@@ -128,7 +128,7 @@ a:hover{
 	margin-bottom:10%; 
 } 
 #info .info-detail{
-	background: rgba(0,0,0,0.6);
+	background: rgba(0,0,0,0.4);
 	border-radius: 15px;
 	padding: 3px 2px;
 }

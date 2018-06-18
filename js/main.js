@@ -53,7 +53,7 @@ jQuery(document).ready(function ($) {
 	//  Smooth Scrolling
 	// ------------------------------------------------------*/
 	$('a[href*=#]:not([href=#])').click(function () {
-		// nav_height = $('.menu').outerHeight();
+		nav_height = $('.menu').outerHeight();
 		if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
 			var target = $(this.hash);
 			target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
